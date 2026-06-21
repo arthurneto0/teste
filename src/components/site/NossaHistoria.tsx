@@ -1,4 +1,4 @@
-import founder from "@/assets/foto-fundadora-luciana.jpeg.asset.json";
+import founder from "@/assets/foto-fundadora-luciana.jpeg";
 
 export function NossaHistoria() {
   return (
@@ -7,7 +7,7 @@ export function NossaHistoria() {
         <div className="mx-auto lg:mx-0 relative">
           <div className="absolute -inset-3 rounded-full bg-brand-orange/30 blur-xl" />
           <img
-            src={founder.url}
+            src={founder}
             alt="Luciana, fundadora da Nutri4Kids"
             className="relative size-56 sm:size-72 rounded-full object-cover border-4 border-card shadow-xl"
             width={288}

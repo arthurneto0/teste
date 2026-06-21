@@ -1,5 +1,5 @@
 import { Instagram, MapPin, MessageCircle } from "lucide-react";
-import logo from "@/assets/logo-nutri4kids.png.asset.json";
+import logo from "@/assets/logo-nutri4kids.png";
 import { INSTAGRAM_URL, WHATSAPP_NUMERO } from "@/lib/menu-data";
 
 export function SiteFooter() {
@@ -7,7 +7,7 @@ export function SiteFooter() {
     <footer className="border-t border-border bg-secondary/30">
       <div className="mx-auto max-w-6xl px-4 py-12 grid gap-8 sm:grid-cols-3 items-start">
         <div>
-          <img src={logo.url} alt="Nutri4Kids" className="h-12 w-auto" />
+          <img src={logo} alt="Nutri4Kids" className="h-12 w-auto" />
           <p className="mt-3 text-sm text-muted-foreground max-w-xs">
             Nutrindo o futuro com lancheiras saudáveis, práticas e cheias de
             sabor.

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, Moon, ShoppingCart, Sun, X } from "lucide-react";
-import logo from "@/assets/logo-nutri4kids.png.asset.json";
+import logo from "@/assets/logo-nutri4kids.png";
 import { useTheme } from "@/hooks/use-theme";
 
 interface Props {
@@ -26,7 +26,7 @@ export function SiteHeader({ onOpenMenu, cartCount }: Props) {
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center gap-3">
         <a href="#top" className="flex items-center gap-2 shrink-0">
           <img
-            src={logo.url}
+            src={logo}
             alt="Nutri4Kids"
             className="h-9 sm:h-11 w-auto"
             width={160}

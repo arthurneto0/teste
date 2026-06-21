@@ -1,4 +1,9 @@
-import placeholder from "@/assets/placeholder.svg";
+import placeholder from "@/assets/placeholder.jpg";
+import miniPizza from "@/assets/mini-pizza.png"
+import biscoito from "@/assets/biscoito-de-aveia.png"
+import pastel from "@/assets/pastel-de-abobora.png"
+import cupcake from "@/assets/cupcake.jpeg"
+
 
 export type Restricao =
   | "semGluten"
@@ -39,7 +44,7 @@ export const CARDAPIO: ItemCardapio[] = [
     nome: "Pizzinha",
     descricao: "Mini pizza artesanal com molho de tomate fresco e queijo derretido.",
     preco: 9.5,
-    imagem: PLACEHOLDER,
+    imagem: miniPizza,
     maisVendido: true,
     tracosGluten: true,
   },
@@ -48,7 +53,7 @@ export const CARDAPIO: ItemCardapio[] = [
     nome: "Cupcake de Chocolate",
     descricao: "Cupcake fofinho à base de beterraba, com cobertura de chocolate sem açúcar refinado.",
     preco: 8.0,
-    imagem: PLACEHOLDER,
+    imagem: cupcake,
     maisVendido: true,
     semAcucar: true,
   },
@@ -57,7 +62,7 @@ export const CARDAPIO: ItemCardapio[] = [
     nome: "Biscoito de Aveia",
     descricao: "Biscoitinho macio de aveia, adoçado naturalmente. Perfeito para o lanche escolar.",
     preco: 6.5,
-    imagem: PLACEHOLDER,
+    imagem: biscoito,
     maisVendido: true,
     semLactose: true,
     semAcucar: true,
@@ -67,7 +72,7 @@ export const CARDAPIO: ItemCardapio[] = [
     nome: "Pastel de Abóbora",
     descricao: "Pastel assado de massa amarelinha de abóbora com recheio caseiro.",
     preco: 7.5,
-    imagem: PLACEHOLDER,
+    imagem: pastel,
     maisVendido: true,
     vegano: true,
     semLactose: true,
