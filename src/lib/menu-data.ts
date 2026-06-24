@@ -1,9 +1,8 @@
 import placeholder from "@/assets/placeholder.jpg";
-import miniPizza from "@/assets/mini-pizza.png"
-import biscoito from "@/assets/biscoito-de-aveia.png"
-import pastel from "@/assets/pastel-de-abobora.png"
-import cupcake from "@/assets/cupcake.jpeg"
-
+import miniPizza from "@/assets/mini-pizza.png";
+import biscoito from "@/assets/biscoito-de-aveia.png";
+import pastel from "@/assets/pastel-de-abobora.png";
+import cupcake from "@/assets/cupcake.jpeg";
 
 export type Restricao =
   | "semGluten"
@@ -265,7 +264,6 @@ export const CARDAPIO: ItemCardapio[] = [
     semAcucar: true,
   },
 ];
-
 
 // NOTA: taxas fictícias — confirmar com a Luciana antes da publicação final.
 export const BAIRROS: { nome: string; taxa: number }[] = [

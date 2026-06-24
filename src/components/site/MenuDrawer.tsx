@@ -20,9 +20,9 @@ import {
   BAIRROS,
   CARDAPIO,
   RESTRICOES,
-  Restricao,
   WHATSAPP_NUMERO,
 } from "@/lib/menu-data";
+import type { Restricao } from "@/lib/menu-data";
 import { useCart } from "@/hooks/use-cart";
 import { toast } from "sonner";
 
